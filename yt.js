@@ -59,5 +59,10 @@ mylink= value;
  		$('#player_vid').attr('src','https://www.youtube.com/embed/'+$(this).data('id')+'?autoplay=1');
  		$('')
  	});
+	
+	$(document).on('click','.vidEle2',function(){
+ 		$('#player_vid').attr('src','https://www.youtube.com/embed/'+$(this).data('id')+'?autoplay=1');
+ 		$('')
+ 	});
 
 });
